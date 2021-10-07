@@ -23,12 +23,19 @@ export default function Home({navigation}) {
 
 const styles = StyleSheet.create({
   button: {
-    alignSelf: 'stretch',
+    alignSelf: 'center',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 20,
+    alignContent: 'flex-end',
+    width: '100%',
+    marginTop: 250,
+    padding: 10,
     backgroundColor: '#F0E5CF',
-    marginTop: 200,
+    borderRadius: 5,
+    borderStyle: 'dotted',
+    borderColor: '#d2d2d2',
+    borderWidth: 1.5,
+    borderRadius: 1.5,
   },
   btntext: {
     color: '#4B6587',

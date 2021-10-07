@@ -285,7 +285,7 @@ export default function Register({navigation}) {
           <TouchableOpacity
             style={styles.button}
             title="Register Page"
-            onPress={() => navigation.navigate('Register Page')}>
+            onPress={() => navigation.navigate('Register Page2')}>
             <Text style={styles.btntext}>ต่อไป</Text>
           </TouchableOpacity>
         </View>
